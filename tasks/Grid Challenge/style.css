@@ -1,0 +1,39 @@
+
+main {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 2rem;
+    align-items: center;
+    width: 70%;
+    margin-inline: auto;
+
+}
+
+.item1 {
+    grid-column: span 3;
+    background-color: aqua;
+}
+
+.item2 {
+    grid-row: span 2;
+    background-color: blueviolet;
+}
+
+.item3 {
+    grid-column: span 1;
+    background-color: orange;
+}
+
+.item4 {
+    grid-column: 2/ span 2;
+    background-color: pink;
+}
+
+.item5 {
+    grid-column: span 4;
+    background-color: aquamarine;
+}
+
+article {
+    padding-inline: 1rem;
+}
