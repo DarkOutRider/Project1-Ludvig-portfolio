@@ -1,0 +1,57 @@
+.grid-layout {
+    display: grid;
+    grid-template-columns: auto;
+    gap: 2rem;
+    width: 50rem;
+    font-size: 1.4rem;
+    
+}
+
+
+button {
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+    background-color: rgb(250, 250, 250);
+    transition: transform 300ms;
+    box-shadow: 0 1px 4px;
+    border: 5px solid rgb(255, 255, 255);
+    padding-right: 0;
+}
+
+h2 {
+    display: flex;
+    align-items: flex-start;
+}
+
+button:hover {
+    transform: scale(1.05);
+    border-color: aqua;
+}
+
+button:active {
+    border-color: blue;
+}
+
+
+
+
+img {
+    display: flex;
+    max-width: 100%;
+    object-fit: cover;
+    padding-right: 0;
+
+}
+
+.logo {
+    display: flex;
+    width: auto;
+    height: auto;
+}
+
+.image-container {
+    padding-right: 0;
+}
+
+
+
