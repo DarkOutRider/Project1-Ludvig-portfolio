@@ -16,15 +16,17 @@ button {
     box-shadow: 0 1px 4px;
     border: 5px solid rgb(255, 255, 255);
     padding-right: 0;
+    cursor: pointer;
 }
 
-h2 {
+span {
     display: flex;
     align-items: flex-start;
+    font-weight: 800;
 }
 
 button:hover {
-    transform: scale(1.05);
+    transform: scale(1.02);
     border-color: aqua;
 }
 
