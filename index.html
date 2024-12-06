@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="zxx">
+<html lang="sv">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <title>dropDown-exempel</title>
+    <title>Ludvigs Portfolio</title>
 
     <link rel="stylesheet" href="assets/style.css">
     <link rel="stylesheet" href="assets/Button-style.css">
@@ -34,15 +34,12 @@
                 <li class="dropdown">
                     <a class="nav-link" href="#">Porfolio</a>
                     <ul>
-                        <li><a class="nav-link" href="portfolio.html">Visa Allt</a></li>
-                        <li><a class="nav-link" href="#">Projekt 1</a></li>
-                        <li><a class="nav-link" href="#">Större Projekt 2</a></li>
-                        <li><a class="nav-link" href="#">Största Projekt 3</a></li>
+                        <li><a class="nav-link" href="index.html">Visa Allt</a></li>
+                        <li><a class="nav-link" href="tasks/Grid Challenge/">Grid-challenge</a></li>
                         <!--undermeny-->
                         <li class="dropdown">
                             <a class="nav-link" href="#">Uppgifter</a>
                             <ul>
-                                <li><a class="nav-link" href="tasks/Grid Challenge/">Grid Challenge </a></li>
                                 <li><a class="nav-link" href="tasks/uppgift 1/">Uppgift 1 </a></li>
                                 <li><a class="nav-link" href="tasks/uppgift 2/">Uppgift 2 </a></li>
                                 <li><a class="nav-link" href="tasks/uppgift 3/">Uppgift 3 </a></li>
@@ -68,12 +65,15 @@
     <main>
         <section class="grid-layout">
             <h1>Portfolio</h1>
-            <p>Det här är mina projekt jag har gjort i webutveckling</p>
+            <p>Det här är mina projekt jag har gjort i Webutveckling</p>
 
             <button class="button-primary" onclick="document.location.href='tasks/Grid Challenge/';">
                 <div>
                     <span>Grid Challenge</span>
                     <p>This is a grid challenge where i will use grid to place the "objects" correctly</p>
+                </div>
+                <div>
+                    <img class= logo src="img/Grid-challenge.png" alt="logo">
                 </div>
             </button>
             <button class="button-primary" onclick="document.location.href='tasks/uppgift 1/';">
@@ -82,7 +82,7 @@
                     <p>Vi går igenom några grunder i HTML/CSS och hur man använder Live Server, Github och W3C validator för HTML och för CSS. Jag vill att ni laddar upp alla uppgifter och projekt på GitHub.</p>
                 </div>
                 <div class="image-container">
-                    <img class= logo src="Skärmbild-uppgift1.png" alt="logo">
+                    <img class= logo src="img/Skärmbild-uppgift1.png" alt="logo">
                 </div>
                 </button>
             <button class="button-primary" onclick="document.location.href='tasks/uppgift 2/';">
@@ -90,11 +90,17 @@
                     <span>Uppgift 2</span>
                     <p>Vi kommer titta på semantiska element (dvs element som har det namn de är avsedda för). Bygg alltid sidan med hjälp av dessa så försäkrar du dig om god praxis (standard) och att göra sidan tillgänglig för alla användare.</p>
                 </div>
+                <div>
+                    <img class= logo src="img/Skärmbild-uppgift2.png" alt="logo">
+                </div>
             </button>
             <button class="button-primary" onclick="document.location.href='tasks/uppgift 3/';">
                 <div>
                     <span>Uppgift 3</span>
                     <p>Vi tittar på hur sökvägar fungerar och hur man skapar länkar på sidan (absoluta, relativa samt bokmärkes- och e-post-länk).</p>
+                </div>
+                <div>
+                    <img class= logo src="img/Skärmbild-uppgift3.png" alt="logo">
                 </div>
             </button>
             <button class="button-primary" onclick="document.location.href='tasks/uppgift 4/';">
@@ -104,7 +110,7 @@
                     </p>
                 </div>
                 <div>
-                    <img class= logo src="froggy.webp" alt="logo">
+                    <img class= logo src="img/Skärmbild-uppgift4.png" alt="logo">
                 </div>
                 
             </button>
@@ -113,17 +119,22 @@
                     <span>Uppgift 5</span>
                     <p>Vi går igenom flexbox och hur man kan använda det för att skapa enkelt layout.</p>
                 </div>
+                <div>
+                    <img class= logo src="img/Skärmbild-uppgift5.png" alt="logo">
+                </div>
             </button>
             <button class="button-secondary" onclick="document.location.href='tasks/uppgift 6/';">
                 <div>
                     <span>Uppgift 6</span>
-                    <p>Vi går igenom likheter och skillnader mellan grid och flex. Grid används i regel när man skapar layout i två dimensioner alltså horisontellt och vertikalt. Tänk ungefär som en tabell. Grid är också mer strikt mot sina children (element) alltså parent-taggen bestämmer mycket hur child-taggarna kommer se ut. Ladda ner zip-filen och kolla bilden. Du ska härma min design med grid.
+                    <p>Vi går igenom likheter och skillnader mellan grid och flex. Grid används i regel när man skapar layout i två dimensioner alltså horisontellt och vertikalt. Grid är också mer strikt mot sina children (element) alltså parent-taggen bestämmer mycket hur child-taggarna kommer se ut. 
                     </p>
                 </div>
+                <div>
+                    <img class= logo src="img/Skärmbild-uppgift6.png" alt="logo">
+                </div>
             </button>
-            
+            <p></p>
         </section>
-        <p class="italic">Detta exempel visar hur man kan bygga en dropdown-meny</p>
     </main>
 </body>
 </html>

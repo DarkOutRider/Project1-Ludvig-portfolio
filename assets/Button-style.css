@@ -10,12 +10,14 @@
 
 button {
     display: grid;
-    grid-template-columns: 5fr 1fr;
+    grid-template-columns: 5fr 1.85fr;
     background-color: rgb(250, 250, 250);
     transition: transform 300ms;
     box-shadow: 0 1px 4px;
     border: 5px solid rgb(255, 255, 255);
     padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
     cursor: pointer;
 }
 
@@ -42,7 +44,7 @@ img {
     max-width: 100%;
     object-fit: cover;
     padding-right: 0;
-
+    
 }
 
 .logo {
@@ -53,6 +55,7 @@ img {
 
 .image-container {
     padding-right: 0;
+    
 }
 
 
